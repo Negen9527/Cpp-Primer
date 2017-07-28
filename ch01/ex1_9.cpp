@@ -6,7 +6,7 @@ using std::cin;
 using std::cout;
 using std::endl;
 
-auto sum(int lo, int hi)
+int sum(int lo, int hi)
 {
     int sum = 0;
     while (lo < hi) sum += lo++;
